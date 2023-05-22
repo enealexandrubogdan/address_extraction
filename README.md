@@ -49,6 +49,22 @@ python main.py
 
 - The program relies on the availability and accessibility of the websites. If a website is down or inaccessible, the program will record an error.
 
+### Future Improvements (Multiprocessing)
+
+1. **Improved Performance**: The program currently processes websites sequentially, meaning it processes one website at a time. By introducing multiprocessing, you can leverage the power of multiple CPU cores to process multiple websites simultaneously. This can significantly improve the overall performance and reduce the execution time of the program, especially when dealing with a large number of websites.
+
+2. **Increased Efficiency**: With multiprocessing, the program can take full advantage of the available system resources and distribute the workload across multiple processes. This can lead to better resource utilization and increased efficiency in processing the websites.
+
+3. **Scalability**: Multiprocessing allows the program to scale and handle a larger number of websites efficiently. As the number of websites increases, multiprocessing enables parallel processing, ensuring that each website is processed concurrently, resulting in faster execution times.
+
+Overall, adding multiprocessing to the program can significantly enhance its performance, efficiency, and scalability, providing a more responsive and adaptable solution for processing websites.
+
+### Problems I've ran into
+
+1. AI Language Detect - Implementing an AI Language Detector for the program can be challenging due to the complexity of Natural Language Processing (NLP) and the inherent variability and ambiguity in language. Developing an accurate language detector requires expertise in linguistic patterns, statistical models, and machine learning algorithms. 
+
+2. Multiprocessing - Coordinating multiple processes and managing inter-process communication adds complexity to the program's logic. Additionally, the effectiveness of multiprocessing relies on the availability of sufficient computational resources, such as CPU cores, memory, and I/O bandwidth.
+
 ### Conclusion
 
 The Address Extraction Program simplifies the task of extracting address information from websites. By automating the web scraping process, it provides a convenient and efficient solution for gathering address data from multiple websites. This program can be useful for various applications, such as data analysis, data enrichment, and research.
